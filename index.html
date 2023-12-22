@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos VibesCard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            text-align: center; /* Centrar el texto */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: black; /* Cambiar el color del título a negro */
+            font-size: 28px; /* Tamaño de la fuente del título */
+            font-weight: bold;
+            margin-bottom: 20px; /* Espaciado inferior del título */
+        }
+
+        .descuento-item {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            text-align: left; /* Alineación del texto a la izquierda */
+        }
+
+        .descuento-item img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-right: 20px; /* Espaciado a la derecha de la imagen */
+        }
+
+        .descuento-text {
+            flex-grow: 1; /* El texto ocupa el espacio restante */
+        }
+
+        /* Nuevo estilo para el logo de la barbería */
+        .logo {
+            max-width: 200px; /* Tamaño máximo del logo */
+            margin: 20px auto; /* Espaciado */
+            display: block; /* Centrar */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpeg" alt="Logo Barbería" class="logo">
+        <h1>Descubre increíbles descuentos con tu tarjeta VibesCard</h1><br><br>
+        <div class="descuento-item">
+            <a href="https://paralelstore.com/" target="_blank">
+                <img src="paralel.png" alt="Paralel Store" style="max-width: 80%;">
+                <div class="descuento-text">
+                    <p>Descuento: 10%</p>
+                </div>
+            </a>
+        </div>
+        <div class="descuento-item">
+            <a href="https://www.instagram.com/bullittstore/" target="_blank">    
+                <img src="bullitt.png" alt="Bullitt Store" style="max-width: 70%"">
+                <div class="descuento-text">
+                    <p>Descuento: 15%</p>
+                </div>
+            </a>
+        </div>
+        <div class="descuento-item">
+            <a href="https://rakayo.com/" target="_blank">
+                <img src="rakayo.jpg" alt="Rakayo Crew" style="max-width: 20%">
+                <div class="descuento-text">
+                    <p>Descuento: 10%</p>
+                </div>
+            </a>
+        </div>
+        <!-- Agrega más bloques descuento-item según sea necesario -->
+    </div>
+</body>
+</html>
